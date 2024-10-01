@@ -2,9 +2,9 @@ package edu.grinnell.csc207.util;
 
 public class BasicCounter implements Counter {
   
-  public int count;
+  int count;
   
-  public int start;
+  int start;
 
   public BasicCounter(int startParam){
     this.start=startParam;

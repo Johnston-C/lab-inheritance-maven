@@ -2,6 +2,7 @@ package edu.grinnell.csc207;
 
 import edu.grinnell.csc207.util.Counter;
 import edu.grinnell.csc207.util.BasicCounter;
+import edu.grinnell.csc207.util.BoundedCounter;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
@@ -23,7 +24,7 @@ public class CounterTests {
   public void test1() throws Exception {
     Counter alpha = new BasicCounter(0);
     Counter beta = new BasicCounter(123);
-    Counter gamma = new BasicCounter(-5);
+    BasicCounter gamma = new BoundedCounter(-5, 3);
     assertEquals(0, alpha.get(), "original alpha");
     assertEquals(123, beta.get(), "original beta");
     assertEquals(-5, gamma.get(), "original gamma");
