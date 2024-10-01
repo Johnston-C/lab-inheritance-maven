@@ -9,5 +9,6 @@ public class Tally extends BasicCounter {
    */
   public Tally() {
     super(0);
+    // System.err.printf("TallyCounter(%d)\n", start);
   } // Tally()
 } // class Tally

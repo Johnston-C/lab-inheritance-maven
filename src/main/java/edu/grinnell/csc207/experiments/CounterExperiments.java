@@ -5,6 +5,7 @@ import edu.grinnell.csc207.util.DecrementableCounter;
 import edu.grinnell.csc207.util.BasicCounter;
 import edu.grinnell.csc207.util.Tally;
 import edu.grinnell.csc207.util.NamedCounter;
+import edu.grinnell.csc207.util.DoubleCounter;
 
 import java.io.PrintWriter;
 

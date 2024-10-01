@@ -9,6 +9,8 @@ public class BasicCounter implements Counter {
   public BasicCounter(int startParam){
     this.start=startParam;
     this.count=startParam;
+    // System.err.printf("BasicCounter(%d)\n", start);
+
   }
   
   public void increment() throws Exception{
