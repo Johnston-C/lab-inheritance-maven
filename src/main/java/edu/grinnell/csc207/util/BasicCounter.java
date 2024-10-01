@@ -11,7 +11,7 @@ public class BasicCounter implements Counter {
     this.count=startParam;
   }
   
-  public void increment(){
+  public void increment() throws Exception{
     this.count++;
   }
 
